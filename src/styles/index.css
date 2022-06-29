@@ -14,10 +14,9 @@
     background: black;
     padding: 15px;
     display: inline-block;
-    margin: auto;
     position: absolute;
-    bottom: 200px;
-    right: 360px;
+    bottom: 450px;
+    right: 570px;
 }
 .red{
     width: 100px;
@@ -43,10 +42,9 @@
 }
 .top-part{
     height: 50px;
-    width: 75px;
-    background-color: #555;
+    width: 50px;
     position: absolute;
     bottom: 328px;
     background-color: black;
-    right: 29px;
+    right: 42px;
 }
