@@ -8,8 +8,9 @@ const Home = () => {
 	const [ selectedColor, setSelectedColor ] = useState("red")
 
 	return (
+		<div className="bigDiv">
+		<div className="top-part"></div>
 		<div className="traffic-light">
-			<div className="top-part"></div>
 			<div 
 			onClick={() => setSelectedColor("red")}
 			className= {"light red" +((selectedColor === "red") ?  " glow": "")}></div>
@@ -19,6 +20,7 @@ const Home = () => {
 			<div 
 			onClick={() => setSelectedColor("green")}
 			className= {"light green" +((selectedColor === "green") ?  " glow": "")}></div>
+		</div>
 		</div>
 	);
 };

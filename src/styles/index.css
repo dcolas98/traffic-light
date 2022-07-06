@@ -10,13 +10,19 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.bigDiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .traffic-light{
     background: black;
     padding: 15px;
     display: inline-block;
-    position: absolute;
-    bottom: 450px;
-    right: 570px;
+    /* position: absolute; */
+    /* bottom: 450px;
+    right: 570px; */
 }
 .red{
     width: 100px;
@@ -43,8 +49,8 @@
 .top-part{
     height: 50px;
     width: 50px;
-    position: absolute;
-    bottom: 328px;
+    /* position: absolute; */
+    /* bottom: 328px; */
     background-color: black;
-    right: 42px;
+    /* right: 42px; */
 }
